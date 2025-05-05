@@ -465,11 +465,11 @@ eleven_labs_types = [
 
 
 class TypesConfig:
-    import_method = "from eleven_labs.types"
+    import_method = "from elevenlabs.types"
     conversion_method = "camel_case"
-    library_name = "eleven_labs"
+    library_name = "elevenlabs"
     relative_file_path = (
         "backend/app/core/third_party_integrations/eleven_labs_home/api/_schema.py"
     )
-    absolute_file_path = "C:\\Users\\tyriq\\Documents\\Github\\lead_ignite_backend_3.0\\backend\\app\\core\\third_party_integrations\\eleven_labs_home\\api\\_schema.py"
+    absolute_file_path = "C:\\Users\\{user}\\Documents\\Github\\lead_ignite_backend_3.0\\backend\\app\\core\\third_party_integrations\\eleven_labs_home\\api\\_schema.py"
     types = eleven_labs_types

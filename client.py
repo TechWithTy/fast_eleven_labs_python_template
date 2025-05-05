@@ -1,9 +1,11 @@
 # backend/apps/eleven_labs/api/client.py
 
-from elevenlabs import ElevenLabs
+from elevenlabs.client import AsyncElevenLabs as ElevenLabs
+from elevenlabs.types import Accent
 
 from app.core.config import settings
 
+print(Accent)
 ELEVENLABS_API_KEY = settings.ELEVENLABS_API_KEY
 
 _client = None
