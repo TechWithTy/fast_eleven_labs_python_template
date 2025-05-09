@@ -1,8 +1,8 @@
-from typing import Dict
+from typing 
 from ...client import get_client
 
 
-def create_pronunciation_dictionary_from_file(name: str, file_path: str) -> Dict:
+def create_pronunciation_dictionary_from_file(name: str, file_path: str) -> dict:
     """
     Creates a pronunciation dictionary from a file.
 
@@ -11,7 +11,7 @@ def create_pronunciation_dictionary_from_file(name: str, file_path: str) -> Dict
         file_path (str): The path to the file containing the dictionary rules.
 
     Returns:
-        Dict: The response from the API.
+        dict: The response from the API.
     """
     client = get_client()
     with open(file_path, 'rb') as file:

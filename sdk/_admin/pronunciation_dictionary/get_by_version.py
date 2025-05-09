@@ -1,7 +1,7 @@
-from typing import Dict
+from typing 
 from ...client import get_client
 
-def get_pronunciation_dictionary_by_version(dictionary_id: str, version_id: str) -> Dict:
+def get_pronunciation_dictionary_by_version(dictionary_id: str, version_id: str) -> dict:
     """
     Retrieves a pronunciation dictionary by version.
 
@@ -10,7 +10,7 @@ def get_pronunciation_dictionary_by_version(dictionary_id: str, version_id: str)
         version_id (str): The version ID of the dictionary.
 
     Returns:
-        Dict: The response from the API.
+        dict: The response from the API.
     """
     client = get_client()
     return client.pronunciation_dictionary.get_by_version(dictionary_id=dictionary_id, version_id=version_id)

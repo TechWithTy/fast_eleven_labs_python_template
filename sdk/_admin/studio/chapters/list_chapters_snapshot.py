@@ -1,10 +1,10 @@
-from typing import Dict, List
+from typing , list
 from ...client import get_client
 
 
-def list_chapters_snapshot(project_id: str, chapter_id: str) -> List[Dict]:
+def list_chapters_snapshot(project_id: str, chapter_id: str) -> list[dict]:
     """
-    List all snapshots for a specific chapter.
+    list all snapshots for a specific chapter.
 
     Args:
         project_id: The ID of the project.

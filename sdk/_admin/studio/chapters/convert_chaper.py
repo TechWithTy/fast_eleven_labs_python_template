@@ -1,8 +1,8 @@
-from typing import Dict
+from typing 
 from ...client import get_client
 
 
-def convert_chapter(project_id: str, chapter_id: str) -> Dict:
+def convert_chapter(project_id: str, chapter_id: str) -> dict:
     """
     Convert a chapter in a studio project.
 

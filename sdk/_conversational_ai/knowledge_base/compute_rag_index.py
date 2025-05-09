@@ -1,7 +1,7 @@
-from typing import Dict
+from typing 
 from ...client import get_client
 
-def compute_rag_index(documentation_id: str) -> Dict:
+def compute_rag_index(documentation_id: str) -> dict:
     """
     Computes the RAG index for a knowledge base document.
 
@@ -9,7 +9,7 @@ def compute_rag_index(documentation_id: str) -> Dict:
         documentation_id (str): The ID of the document.
 
     Returns:
-        Dict: The response from the API.
+        dict: The response from the API.
     """
     client = get_client()
     return client.conversational_ai.compute_rag_index(documentation_id=documentation_id)

@@ -1,7 +1,7 @@
-from typing import Dict
+from typing 
 from ...client import get_client
 
-def create_secret(name: str, value: str) -> Dict:
+def create_secret(name: str, value: str) -> dict:
     """
     Creates a new secret.
 
@@ -10,7 +10,7 @@ def create_secret(name: str, value: str) -> Dict:
         value (str): The value of the secret.
 
     Returns:
-        Dict: The response from the API.
+        dict: The response from the API.
     """
     client = get_client()
     return client.conversational_ai.create_secret(name=name, value=value)

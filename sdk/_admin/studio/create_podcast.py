@@ -1,10 +1,10 @@
-from typing import Dict
+from typing 
 from ...client import get_client
 from elevenlabs import PodcastConversationModeData, PodcastTextSource
 from elevenlabs.studio import BodyCreatePodcastV1StudioPodcastsPostMode_Conversation
 
 
-def create_podcast(model_id: str, host_voice_id: str, guest_voice_id: str, text: str) -> Dict:
+def create_podcast(model_id: str, host_voice_id: str, guest_voice_id: str, text: str) -> dict:
     """
     Create a new podcast.
 

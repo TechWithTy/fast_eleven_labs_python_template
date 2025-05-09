@@ -1,10 +1,10 @@
-from typing import Dict, List
+from typing , list
 from ...client import get_client
 
 
-def list_chapters(project_id: str) -> List[Dict]:
+def list_chapters(project_id: str) -> list[dict]:
     """
-    List all chapters in a studio project.
+    list all chapters in a studio project.
 
     Args:
         project_id: The ID of the project.

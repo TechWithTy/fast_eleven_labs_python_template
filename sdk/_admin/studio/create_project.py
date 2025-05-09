@@ -1,8 +1,8 @@
-from typing import Dict
+from typing 
 from ...client import get_client
 
 
-def create_studio_project(name: str, default_title_voice_id: str, default_paragraph_voice_id: str, default_model_id: str) -> Dict:
+def create_studio_project(name: str, default_title_voice_id: str, default_paragraph_voice_id: str, default_model_id: str) -> dict:
     """
     Create a new studio project.
 

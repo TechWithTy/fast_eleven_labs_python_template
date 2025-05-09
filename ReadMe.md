@@ -123,7 +123,7 @@ for sample, metrics in sample_quality.items():
 ### Manage Voice Clones
 
 ```python
-# List all your custom voices
+# list all your custom voices
 voices = client.get_voices()
 for voice in voices:
     print(f"Voice: {voice.name}, ID: {voice.voice_id}")

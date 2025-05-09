@@ -1,7 +1,7 @@
-from typing import Dict
+from typing 
 from ...client import get_client
 
-def delete_knowledge_base_document(documentation_id: str) -> Dict:
+def delete_knowledge_base_document(documentation_id: str) -> dict:
     """
     Deletes a knowledge base document.
 
@@ -9,7 +9,7 @@ def delete_knowledge_base_document(documentation_id: str) -> Dict:
         documentation_id (str): The ID of the document.
 
     Returns:
-        Dict: The response from the API.
+        dict: The response from the API.
     """
     client = get_client()
     return client.conversational_ai.delete_knowledge_base_document(documentation_id=documentation_id)

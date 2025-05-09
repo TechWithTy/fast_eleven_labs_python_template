@@ -1,8 +1,8 @@
-from typing import Dict
+from typing 
 from ...client import get_client
 
 
-def stream_archive_audio(project_id: str, project_snapshot_id: str) -> Dict:
+def stream_archive_audio(project_id: str, project_snapshot_id: str) -> dict:
     """
     Stream archive audio for a specific project snapshot.
 

@@ -1,7 +1,7 @@
-from typing import Dict
+from typing 
 from ...client import get_client
 
-def get_knowledge_base_document_part_by_id(documentation_id: str, chunk_id: str) -> Dict:
+def get_knowledge_base_document_part_by_id(documentation_id: str, chunk_id: str) -> dict:
     """
     Retrieves a specific chunk of a knowledge base document.
 
@@ -10,7 +10,7 @@ def get_knowledge_base_document_part_by_id(documentation_id: str, chunk_id: str)
         chunk_id (str): The ID of the chunk to retrieve.
 
     Returns:
-        Dict: The response from the API.
+        dict: The response from the API.
     """
     client = get_client()
     return client.conversational_ai.get_knowledge_base_document_part_by_id(

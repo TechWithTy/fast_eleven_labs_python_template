@@ -1,8 +1,8 @@
-from typing import Dict
+from typing 
 from ...client import get_client
 
 
-def delete_studio_project(project_id: str) -> Dict:
+def delete_studio_project(project_id: str) -> dict:
     """
     Delete a studio project.
 

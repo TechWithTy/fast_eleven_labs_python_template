@@ -1,8 +1,8 @@
-from typing import Dict
+from typing 
 from ...client import get_client
 
 
-def delete_chapter(project_id: str, chapter_id: str) -> Dict:
+def delete_chapter(project_id: str, chapter_id: str) -> dict:
     """
     Delete a chapter from a studio project.
 

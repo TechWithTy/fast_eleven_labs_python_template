@@ -1,15 +1,15 @@
-from typing import Dict
+from typing 
 from ...client import get_client
 
-def update_settings(settings: Dict) -> Dict:
+def update_settings(settings: dict) -> dict:
     """
     Updates the workspace settings.
 
     Args:
-        settings (Dict): The new settings to apply.
+        settings (dict): The new settings to apply.
 
     Returns:
-        Dict: The updated workspace settings.
+        dict: The updated workspace settings.
     """
     client = get_client()
     return client.conversational_ai.update_settings(settings=settings)

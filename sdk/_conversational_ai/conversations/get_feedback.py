@@ -1,7 +1,7 @@
-from typing import Dict
+from typing 
 from ...client import get_client
 
-def post_conversation_feedback(conversation_id: str, feedback: str) -> Dict:
+def post_conversation_feedback(conversation_id: str, feedback: str) -> dict:
     """
     Posts feedback for a conversation.
 
@@ -10,7 +10,7 @@ def post_conversation_feedback(conversation_id: str, feedback: str) -> Dict:
         feedback (str): The feedback to post (e.g., 'like').
 
     Returns:
-        Dict: The response from the API.
+        dict: The response from the API.
     """
     client = get_client()
     return client.conversational_ai.post_conversation_feedback(

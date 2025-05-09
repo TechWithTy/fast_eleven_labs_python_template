@@ -1,7 +1,7 @@
-from typing import Dict
+from typing 
 from ...client import get_client
 
-def update_phone_number(phone_number_id: str, agent_id: str) -> Dict:
+def update_phone_number(phone_number_id: str, agent_id: str) -> dict:
     """
     Updates a phone number.
 
@@ -10,7 +10,7 @@ def update_phone_number(phone_number_id: str, agent_id: str) -> Dict:
         agent_id (str): The ID of the agent to update the phone number for.
 
     Returns:
-        Dict: The response from the API.
+        dict: The response from the API.
     """
     client = get_client()
     return client.conversational_ai.update_phone_number(phone_number_id=phone_number_id, agent_id=agent_id)

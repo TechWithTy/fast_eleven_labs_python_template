@@ -1,12 +1,12 @@
-from typing import List, Dict
+from typing  dict
 from ...client import get_client
 
-def get_secrets() -> List[Dict]:
+def get_secrets() -> list[dict]:
     """
     Retrieves all secrets.
 
     Returns:
-        List[Dict]: The list of secrets.
+        list[dict]: The list of secrets.
     """
     client = get_client()
     return client.conversational_ai.get_secrets()

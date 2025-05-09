@@ -1,7 +1,7 @@
-from typing import Dict
+from typing 
 from ...client import get_client
 
-def remove_pronunciation_dictionary_rules(pronunciation_dictionary_id: str, rule_strings: list) -> Dict:
+def remove_pronunciation_dictionary_rules(pronunciation_dictionary_id: str, rule_strings: list) -> dict:
     """
     Removes rules from a pronunciation dictionary.
 
@@ -10,7 +10,7 @@ def remove_pronunciation_dictionary_rules(pronunciation_dictionary_id: str, rule
         rule_strings (list): The rule strings to remove.
 
     Returns:
-        Dict: The response from the API.
+        dict: The response from the API.
     """
     client = get_client()
     return client.pronunciation_dictionary.remove_rules(

@@ -1,7 +1,7 @@
-from typing import Dict
+from typing 
 from ...client import get_client
 
-def twilio_outbound_call(agent_id: str, agent_phone_number_id: str, to_number: str) -> Dict:
+def twilio_outbound_call(agent_id: str, agent_phone_number_id: str, to_number: str) -> dict:
     """
     Initiates an outbound call using Twilio.
 
@@ -11,7 +11,7 @@ def twilio_outbound_call(agent_id: str, agent_phone_number_id: str, to_number: s
         to_number (str): The number to call.
 
     Returns:
-        Dict: The response from the API.
+        dict: The response from the API.
     """
     client = get_client()
     return client.conversational_ai.twilio_outbound_call(

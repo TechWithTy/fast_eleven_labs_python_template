@@ -1,8 +1,8 @@
-from typing import Dict
+from typing 
 from ...client import get_client
 
 
-def delete_segment(dubbing_id: str, segment_id: str) -> Dict:
+def delete_segment(dubbing_id: str, segment_id: str) -> dict:
     """
     Delete a segment from a dubbing resource.
 

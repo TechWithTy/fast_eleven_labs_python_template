@@ -1,8 +1,8 @@
-from typing import Dict
+from typing 
 from ...client import get_client
 
 
-def update_project(project_id: str, name: str, default_title_voice_id: str, default_paragraph_voice_id: str) -> Dict:
+def update_project(project_id: str, name: str, default_title_voice_id: str, default_paragraph_voice_id: str) -> dict:
     """
     Update the metadata of a studio project.
 

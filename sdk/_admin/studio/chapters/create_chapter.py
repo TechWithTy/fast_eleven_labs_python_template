@@ -1,8 +1,8 @@
-from typing import Dict
+from typing 
 from ...client import get_client
 
 
-def create_chapter(project_id: str, name: str) -> Dict:
+def create_chapter(project_id: str, name: str) -> dict:
     """
     Create a new chapter in a studio project.
 

@@ -1,10 +1,10 @@
-from typing import Dict
+from typing 
 from ...client import get_client
 from elevenlabs.pronunciation_dictionary import (
     PronunciationDictionaryRule_Alias,
 )
 
-def add_pronunciation_dictionary_rules(pronunciation_dictionary_id: str, rules: list) -> Dict:
+def add_pronunciation_dictionary_rules(pronunciation_dictionary_id: str, rules: list) -> dict:
     """
     Adds rules to a pronunciation dictionary.
 
@@ -13,7 +13,7 @@ def add_pronunciation_dictionary_rules(pronunciation_dictionary_id: str, rules: 
         rules (list): The rules to add.
 
     Returns:
-        Dict: The response from the API.
+        dict: The response from the API.
     """
     client = get_client()
     return client.pronunciation_dictionary.add_rules(

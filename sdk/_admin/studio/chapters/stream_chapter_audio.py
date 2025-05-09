@@ -1,8 +1,8 @@
-from typing import Dict
+from typing 
 from ...client import get_client
 
 
-def stream_chapter_audio(project_id: str, chapter_id: str) -> Dict:
+def stream_chapter_audio(project_id: str, chapter_id: str) -> dict:
     """
     Stream audio for a specific chapter.
 

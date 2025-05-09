@@ -1,8 +1,8 @@
-from typing import Dict
+from typing 
 from ...client import get_client
 
 
-def get_chapters(project_id: str, chapter_id: str) -> Dict:
+def get_chapters(project_id: str, chapter_id: str) -> dict:
     """
     Get details of a specific chapter.
 

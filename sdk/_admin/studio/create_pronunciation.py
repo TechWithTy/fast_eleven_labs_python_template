@@ -1,8 +1,8 @@
-from typing import Dict, List
+from typing , list
 from ...client import get_client
 
 
-def create_pronunciation_dictionaries(project_id: str, pronunciation_dictionary_locators: List[Dict]) -> Dict:
+def create_pronunciation_dictionaries(project_id: str, pronunciation_dictionary_locators: list[dict]) -> dict:
     """
     Create pronunciation dictionaries for a project.
 

@@ -1,8 +1,8 @@
-from typing import Dict
+from typing 
 from ...client import get_client
 
 
-def update_chapter(project_id: str, chapter_id: str, name: str) -> Dict:
+def update_chapter(project_id: str, chapter_id: str, name: str) -> dict:
     """
     Update a chapter in a studio project.
 

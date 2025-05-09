@@ -1,5 +1,5 @@
 from ..client import get_client
-from typing import Dict, Any
+from typing , Any
 
 
 def create_speech_with_timing(
@@ -8,7 +8,7 @@ def create_speech_with_timing(
     api_key: str,
     model: str = "eleven_monolingual_v1",
     **kwargs,
-) -> Dict[str, Any]:
+) -> dict[str, Any]:
     client = get_client()
 
     audio = client.generate(text=text, voice=voice_id, model=model, **kwargs)

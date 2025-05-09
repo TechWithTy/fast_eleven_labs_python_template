@@ -1,8 +1,8 @@
-from typing import Dict
+from typing 
 from ...client import get_client
 
 
-def update_project_content(project_id: str, content_file) -> Dict:
+def update_project_content(project_id: str, content_file) -> dict:
     """
     Update the content of a studio project.
 

@@ -1,11 +1,11 @@
 import os
 import requests
-from typing import Dict, Any
+from typing , Any
 
 # Base URL for your customer service (replace with actual URL)
 CUSTOMER_SERVICE_BASE_URL = 'https://api.yourdomain.com'
 
-def get_customer_voice_data(customer_id: str) -> Dict[str, Any]:
+def get_customer_voice_data(customer_id: str) -> dict[str, Any]:
     """
     Fetch the customer's voice data from the customer service.
     

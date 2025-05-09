@@ -1,10 +1,10 @@
-from typing import Dict, List
+from typing , list
 from ...client import get_client
 
 
-def list_studio_projects() -> List[Dict]:
+def list_studio_projects() -> list[dict]:
     """
-    List all studio projects.
+    list all studio projects.
 
     Returns:
         A list of dictionaries containing project details.
