@@ -1,8 +1,7 @@
-from elevenlabs import ElevenLabs
+from client import get_client
 
-client = ElevenLabs(
-    api_key="YOUR_API_KEY",
-)
+client = get_client()
+
 client.usage.get_characters_usage_metrics(
     start_unix=1,
     end_unix=1,

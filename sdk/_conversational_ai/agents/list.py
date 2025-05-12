@@ -1,5 +1,5 @@
-from typing , Any
-from ...client import get_client
+from typing import Any
+from client import get_client
 
 def get_agents() -> dict[str, Any]:
     client = get_client()

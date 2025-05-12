@@ -1,4 +1,4 @@
-from ..client import get_client
+from client import get_client
 
 
 def audio_isolation_stream(api_key, audio_file):

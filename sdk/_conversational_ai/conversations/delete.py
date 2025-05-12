@@ -1,4 +1,4 @@
-from elevenlabs import ElevenLabs
+from client import get_client
 
 def delete_conversation(conversation_id: str) -> None:
     """
@@ -7,9 +7,7 @@ def delete_conversation(conversation_id: str) -> None:
     Args:
         conversation_id (str): The ID of the conversation to delete.
     """
-    client = ElevenLabs(
-        api_key="YOUR_API_KEY",
-    )
+    client = get_client()
     client.conversational_ai.delete_conversation(conversation_id=conversation_id)
 
 delete_conversation(conversation_id="21m00Tcm4TlvDq8ikWAM")

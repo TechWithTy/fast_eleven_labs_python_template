@@ -1,5 +1,4 @@
-from typing 
-from ...client import get_client
+from client import get_client
 
 def delete_secret(secret_id: str) -> dict:
     """

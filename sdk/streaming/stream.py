@@ -1,5 +1,5 @@
 from elevenlabs import stream
-from elevenlabs.client import AsyncElevenLabs as ElevenLabs
+from client import AsyncElevenLabs as ElevenLabs
 
 client = ElevenLabs()
 

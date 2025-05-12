@@ -1,4 +1,4 @@
-from ..client import get_client
+from client import get_client
 
 
 def dub_video_or_audio(api_key: str, file_path: str, target_language: str):

@@ -1,5 +1,4 @@
-from typing 
-from ...client import get_client
+from client import get_client
 
 
 def stream_chapter_audio(project_id: str, chapter_id: str) -> dict:
@@ -13,7 +12,7 @@ def stream_chapter_audio(project_id: str, chapter_id: str) -> dict:
     Returns:
         A dictionary containing the streaming details.
     """
-    client = get_client()
+    client = get_client()   
     
     return client.studio.chapters.stream_audio(
         project_id=project_id,

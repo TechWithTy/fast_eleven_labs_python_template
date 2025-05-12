@@ -1,8 +1,16 @@
-from elevenlabs import ElevenLabs
+from client import get_client
 
-client = ElevenLabs(
-    api_key="YOUR_API_KEY",
-)
-client.workspace.invite_multiple_users(
-    emails=["emails"],
-)
+def invite_multiple_users(emails: list[str]) -> dict:
+    """
+    Invites multiple users to the workspace.
+
+    Args:
+        emails (list[str]): The emails of the users to invite.
+
+    Returns:
+        dict: The response from the API.
+    """
+    client = get_client()
+    return client.workspace.invite_multiple_users(
+        emails=emails,
+    )

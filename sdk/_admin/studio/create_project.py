@@ -1,5 +1,4 @@
-from typing 
-from ...client import get_client
+from client import get_client
 
 
 def create_studio_project(name: str, default_title_voice_id: str, default_paragraph_voice_id: str, default_model_id: str) -> dict:

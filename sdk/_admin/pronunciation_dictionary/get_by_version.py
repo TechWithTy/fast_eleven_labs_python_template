@@ -1,11 +1,10 @@
-from typing 
-from ...client import get_client
+from client import get_client
 
 def get_pronunciation_dictionary_by_version(dictionary_id: str, version_id: str) -> dict:
     """
     Retrieves a pronunciation dictionary by version.
 
-    Args:
+    Args:   
         dictionary_id (str): The ID of the dictionary.
         version_id (str): The version ID of the dictionary.
 

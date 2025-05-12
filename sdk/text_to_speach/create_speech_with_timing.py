@@ -1,5 +1,5 @@
-from ..client import get_client
-from typing , Any
+from client import get_client
+from typing import Any
 
 
 def create_speech_with_timing(

@@ -1,5 +1,5 @@
-from typing 
-from ...client import get_client
+
+from client import get_client
 
 
 def delete_segment(dubbing_id: str, segment_id: str) -> dict:

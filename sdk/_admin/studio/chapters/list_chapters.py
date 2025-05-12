@@ -1,5 +1,4 @@
-from typing , list
-from ...client import get_client
+from client import get_client
 
 
 def list_chapters(project_id: str) -> list[dict]:

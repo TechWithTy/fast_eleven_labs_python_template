@@ -1,8 +1,16 @@
-from elevenlabs import ElevenLabs
+from client import get_client
 
-client = ElevenLabs(
-    api_key="YOUR_API_KEY",
-)
-client.workspace.search_user_groups(
-    name="name",
-)
+def search_user_group(name: str) -> dict:
+    """
+    Searches for user groups in the workspace.
+
+    Args:
+        name (str): The name of the user group to search for.
+
+    Returns:
+        dict: The response from the API.
+    """
+    client = get_client()
+    return client.workspace.search_user_groups(
+        name=name,
+    )

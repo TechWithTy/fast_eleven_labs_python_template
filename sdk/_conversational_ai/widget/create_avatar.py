@@ -1,5 +1,4 @@
-from typing 
-from ...client import get_client
+from client import get_client
 
 def create_avatar(agent_id: str) -> dict:
     """
@@ -13,3 +12,4 @@ def create_avatar(agent_id: str) -> dict:
     """
     client = get_client()
     return client.conversational_ai.post_agent_avatar(agent_id=agent_id)
+    

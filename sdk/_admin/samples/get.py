@@ -1,12 +1,11 @@
-from typing 
-from ...client import get_client
+from client import get_client
 
 def get_sample(voice_id: str, sample_id: str) -> dict:
     """
     Retrieves a sample for a specific voice.
 
     Args:
-        voice_id (str): The ID of the voice.
+        voice_id (str): The ID  of the voice.
         sample_id (str): The ID of the sample to retrieve.
 
     Returns:

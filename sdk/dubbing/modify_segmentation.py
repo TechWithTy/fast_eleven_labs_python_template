@@ -1,5 +1,4 @@
-from typing 
-from ...client import get_client
+from client import get_client
 
 
 def create_segment_for_speaker(dubbing_id: str, speaker_id: str, start_time: float, end_time: float) -> dict:

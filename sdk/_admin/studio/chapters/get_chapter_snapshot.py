@@ -1,5 +1,4 @@
-from typing 
-from ...client import get_client
+from client import get_client
 
 
 def get_chapter_snapshot(project_id: str, chapter_id: str, chapter_snapshot_id: str) -> dict:

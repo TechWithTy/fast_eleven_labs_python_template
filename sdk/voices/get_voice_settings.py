@@ -1,4 +1,4 @@
-from ..client import get_client
+from client import get_client
 
 
 def get_voice_settings(api_key: str, voice_id: str):

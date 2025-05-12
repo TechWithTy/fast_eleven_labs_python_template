@@ -1,8 +1,16 @@
-from elevenlabs import ElevenLabs
+from client import get_client
 
-client = ElevenLabs(
-    api_key="YOUR_API_KEY",
-)
-client.workspace.invite_user(
-    email="john.doe@testmail.com",
-)
+def invite_user(email: str) -> dict:
+    """
+    Invites a user to the workspace.
+
+    Args:
+        email (str): The email of the user to invite.
+
+    Returns:
+        dict: The response from the API.
+    """
+    client = get_client()
+    return client.workspace.invite_user(
+        email=email,
+    )

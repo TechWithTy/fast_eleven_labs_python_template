@@ -1,5 +1,4 @@
-from typing 
-from ...client import get_client
+from client import get_client
 
 def get_agent_link(agent_id: str) -> dict:
     client = get_client()

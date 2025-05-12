@@ -1,4 +1,4 @@
-from ..client import get_client
+from client import get_client
 
 
 def create_audio_native_project(api_key: str, name: str, file_path: str):

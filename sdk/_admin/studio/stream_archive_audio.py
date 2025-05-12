@@ -1,6 +1,4 @@
-from typing 
-from ...client import get_client
-
+from client import get_client
 
 def stream_archive_audio(project_id: str, project_snapshot_id: str) -> dict:
     """

@@ -1,5 +1,4 @@
-from typing 
-from ...client import get_client
+from client import get_client
 from elevenlabs.pronunciation_dictionary import (
     BodyAddAPronunciationDictionaryV1PronunciationDictionariesAddFromRulesPostRulesItem_Alias,
 )
@@ -24,5 +23,5 @@ def add_pronunciation_dictionary(name: str, rules: list) -> dict:
 #         string_to_replace="Thailand",
 #         alias="tie-land",
 #     )
-# ]
+# ] 
 # response = add_pronunciation_dictionary(name="My Dictionary", rules=rules)

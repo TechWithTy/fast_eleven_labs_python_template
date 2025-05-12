@@ -1,6 +1,4 @@
-from typing , list
-from ...client import get_client
-
+from client import get_client
 
 def list_studio_projects() -> list[dict]:
     """

@@ -1,6 +1,5 @@
-from typing 
-from ...client import get_client
 
+from client import get_client
 
 def convert_project(project_id: str) -> dict:
     """

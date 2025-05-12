@@ -1,5 +1,4 @@
-from typing 
-from ...client import get_client
+from client import get_client
 
 def get_knowledge_base_document_content(documentation_id: str) -> dict:
     """

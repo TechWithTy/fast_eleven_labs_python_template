@@ -1,5 +1,4 @@
-from typing 
-from ...client import get_client
+from client import get_client
 
 def compute_rag_index(documentation_id: str) -> dict:
     """
@@ -7,7 +6,7 @@ def compute_rag_index(documentation_id: str) -> dict:
 
     Args:
         documentation_id (str): The ID of the document.
-
+    
     Returns:
         dict: The response from the API.
     """

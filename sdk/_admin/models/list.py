@@ -1,4 +1,4 @@
-from ...client import get_client
+from client import get_client
 
 def list_models():
     client = get_client()

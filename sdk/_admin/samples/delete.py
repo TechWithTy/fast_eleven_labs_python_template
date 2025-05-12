@@ -1,5 +1,4 @@
-from typing 
-from ...client import get_client
+from client import get_client
 
 def delete_sample(voice_id: str, sample_id: str) -> dict:
     """

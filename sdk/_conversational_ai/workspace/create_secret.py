@@ -1,5 +1,4 @@
-from typing 
-from ...client import get_client
+from client import get_client
 
 def create_secret(name: str, value: str) -> dict:
     """

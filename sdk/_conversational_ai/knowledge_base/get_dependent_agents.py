@@ -1,5 +1,4 @@
-from typing , list
-from ...client import get_client
+from client import get_client
 
 def get_knowledge_base_dependent_agents(documentation_id: str) -> list[dict]:
     """

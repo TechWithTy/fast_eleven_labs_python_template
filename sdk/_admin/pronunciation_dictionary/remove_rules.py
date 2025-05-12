@@ -1,5 +1,4 @@
-from typing 
-from ...client import get_client
+from client import get_client
 
 def remove_pronunciation_dictionary_rules(pronunciation_dictionary_id: str, rule_strings: list) -> dict:
     """

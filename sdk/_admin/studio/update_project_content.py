@@ -1,6 +1,5 @@
-from typing 
-from ...client import get_client
 
+from client import get_client
 
 def update_project_content(project_id: str, content_file) -> dict:
     """

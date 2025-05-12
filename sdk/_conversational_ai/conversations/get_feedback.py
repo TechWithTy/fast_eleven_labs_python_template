@@ -1,5 +1,4 @@
-from typing 
-from ...client import get_client
+from client import get_client
 
 def post_conversation_feedback(conversation_id: str, feedback: str) -> dict:
     """

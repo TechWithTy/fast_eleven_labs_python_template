@@ -1,4 +1,4 @@
-from ..client import get_client
+from client import get_client
 
 
 def create_forced_alignment(api_key: str, audio_file: str, text: str):

@@ -5,4 +5,4 @@ def get_generated_items():
 
     response = client.history.get()
 
-    return response
+    return response 

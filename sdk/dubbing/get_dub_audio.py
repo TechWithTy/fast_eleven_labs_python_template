@@ -1,4 +1,4 @@
-from ..client import get_client
+from client import get_client
 
 
 def get_dubbed_audio(api_key: str, dubbing_id: str, language_code: str):

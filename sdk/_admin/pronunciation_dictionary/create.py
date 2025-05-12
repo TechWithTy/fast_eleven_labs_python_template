@@ -1,6 +1,4 @@
-from typing 
-from ...client import get_client
-
+from client import get_client
 
 def create_pronunciation_dictionary_from_file(name: str, file_path: str) -> dict:
     """

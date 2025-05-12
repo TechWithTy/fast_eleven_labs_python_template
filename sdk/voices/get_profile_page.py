@@ -1,4 +1,4 @@
-from ..client import get_client
+from client import get_client
 
 
 def get_profile_page(api_key: str, handle: str):

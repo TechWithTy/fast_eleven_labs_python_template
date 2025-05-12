@@ -1,4 +1,4 @@
-from ..client import get_client
+from client import get_client
 
 
 def translate_segments(api_key: str, dubbing_id: str, segments: list):

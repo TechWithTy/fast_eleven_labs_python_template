@@ -1,5 +1,4 @@
-from typing 
-from ...client import get_client
+from client import get_client
 
 def get_conversation_details(conversation_id: str) -> dict:
     """

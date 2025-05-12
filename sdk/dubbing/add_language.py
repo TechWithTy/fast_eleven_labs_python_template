@@ -1,4 +1,4 @@
-from ..client import get_client
+from client import get_client
 
 
 def add_language_to_dubbing_resource(

@@ -1,5 +1,4 @@
-from typing 
-from ...client import get_client
+from client import get_client
 
 def twilio_outbound_call(agent_id: str, agent_phone_number_id: str, to_number: str) -> dict:
     """

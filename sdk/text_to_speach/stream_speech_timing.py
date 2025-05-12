@@ -1,4 +1,4 @@
-from ..client import get_client
+from client import get_client
 
 
 def stream_speech_with_timing(
