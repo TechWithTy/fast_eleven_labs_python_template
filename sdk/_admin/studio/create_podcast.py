@@ -1,7 +1,7 @@
 from elevenlabs import PodcastConversationModeData, PodcastTextSource
 from elevenlabs.studio import BodyCreatePodcastV1StudioPodcastsPostMode_Conversation
 
-from client import get_client
+from app.core.third_party_integrations.eleven_labs_home.sdk.client import get_client
 
 def create_podcast(model_id: str, host_voice_id: str, guest_voice_id: str, text: str) -> dict:
     """

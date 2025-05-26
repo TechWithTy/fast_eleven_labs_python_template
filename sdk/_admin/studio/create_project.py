@@ -1,4 +1,4 @@
-from client import get_client
+from app.core.third_party_integrations.eleven_labs_home.sdk.client import get_client
 
 
 def create_studio_project(name: str, default_title_voice_id: str, default_paragraph_voice_id: str, default_model_id: str) -> dict:

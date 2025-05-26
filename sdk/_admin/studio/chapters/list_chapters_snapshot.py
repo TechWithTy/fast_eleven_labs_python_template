@@ -1,4 +1,4 @@
-from client import get_client
+from app.core.third_party_integrations.eleven_labs_home.sdk.client import get_client
 
 
 def list_chapters_snapshot(project_id: str, chapter_id: str) -> list[dict]:

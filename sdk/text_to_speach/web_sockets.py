@@ -1,4 +1,4 @@
-from client import get_client
+from app.core.third_party_integrations.eleven_labs_home.sdk.client import get_client
 
 def text_to_speech_stream( voice_id, text, model_id="eleven_monolingual_v1"):
     client = get_client()

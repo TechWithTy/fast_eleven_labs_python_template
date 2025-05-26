@@ -1,4 +1,4 @@
-from client import get_client
+from app.core.third_party_integrations.eleven_labs_home.sdk.client import get_client
 
 
 def create_segment_for_speaker(dubbing_id: str, speaker_id: str, start_time: float, end_time: float) -> dict:

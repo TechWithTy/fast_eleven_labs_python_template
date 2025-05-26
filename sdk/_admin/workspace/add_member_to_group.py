@@ -1,4 +1,4 @@
-from client import get_client
+from app.core.third_party_integrations.eleven_labs_home.sdk.client import get_client
 
 def add_member_to_group(group_id: str, email: str) -> dict:
     """

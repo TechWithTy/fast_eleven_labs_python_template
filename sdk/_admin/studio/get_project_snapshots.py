@@ -1,5 +1,5 @@
 
-from client import get_client
+from app.core.third_party_integrations.eleven_labs_home.sdk.client import get_client
 
 def get_project_snapshot(project_id: str, project_snapshot_id: str) -> dict:
     """

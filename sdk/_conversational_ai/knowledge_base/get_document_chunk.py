@@ -1,4 +1,4 @@
-from client import get_client
+from app.core.third_party_integrations.eleven_labs_home.sdk.client import get_client
 
 def get_knowledge_base_document_part_by_id(documentation_id: str, chunk_id: str) -> dict:
     """

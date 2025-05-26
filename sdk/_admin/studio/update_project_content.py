@@ -1,5 +1,5 @@
 
-from client import get_client
+from app.core.third_party_integrations.eleven_labs_home.sdk.client import get_client
 
 def update_project_content(project_id: str, content_file) -> dict:
     """

@@ -1,5 +1,5 @@
 
-from client import get_client
+from app.core.third_party_integrations.eleven_labs_home.sdk.client import get_client
 
 
 def delete_segment(dubbing_id: str, segment_id: str) -> dict:

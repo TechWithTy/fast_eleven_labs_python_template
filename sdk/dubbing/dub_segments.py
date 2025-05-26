@@ -1,4 +1,4 @@
-from client import get_client
+from app.core.third_party_integrations.eleven_labs_home.sdk.client import get_client
 
 
 def dub_segments(api_key: str, dubbing_id: str, segments: list):

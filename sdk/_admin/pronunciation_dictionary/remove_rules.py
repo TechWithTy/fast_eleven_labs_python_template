@@ -1,4 +1,4 @@
-from client import get_client
+from app.core.third_party_integrations.eleven_labs_home.sdk.client import get_client
 
 def remove_pronunciation_dictionary_rules(pronunciation_dictionary_id: str, rule_strings: list) -> dict:
     """

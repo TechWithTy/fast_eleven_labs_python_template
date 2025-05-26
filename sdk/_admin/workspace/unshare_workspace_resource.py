@@ -1,4 +1,4 @@
-from client import get_client
+from app.core.third_party_integrations.eleven_labs_home.sdk.client import get_client
 
 def unshare_workspace_resource(resource_id: str, resource_type: str) -> dict:
     """

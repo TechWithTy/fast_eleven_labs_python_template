@@ -1,4 +1,4 @@
-from client import get_client
+from app.core.third_party_integrations.eleven_labs_home.sdk.client import get_client
 
 def delete_sample(voice_id: str, sample_id: str) -> dict:
     """
